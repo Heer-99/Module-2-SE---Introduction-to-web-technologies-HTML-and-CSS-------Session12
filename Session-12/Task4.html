@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Website</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    body{
+      scroll-behavior: smooth;
+    }
+
+    section{
+      padding: 90px 20px;
+    }
+
+    #home{ background:#f1f3f6; }
+    #about{ background:#ffffff; }
+    #contact{ background:#f1f3f6; }
+
+    .hero{
+      text-align:center;
+      padding: 80px 0;
+    }
+
+    .hero h1{
+      font-size:40px;
+      font-weight:bold;
+    }
+
+  </style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-dark bg-dark sticky-top">
+  <div class="container">
+
+    <a class="navbar-brand" href="#">MySite</a>
+
+    <div>
+      <a class="text-white me-3" href="#home">Home</a>
+      <a class="text-white me-3" href="#about">About</a>
+      <a class="text-white" href="#contact">Contact</a>
+    </div>
+
+  </div>
+</nav>
+
+<!-- HOME -->
+<section id="home">
+  <div class="container hero">
+    <h1>Welcome to My Website</h1>
+    <p>Simple Bootstrap Landing Page with Sticky Navbar</p>
+    <button class="btn btn-primary">Get Started</button>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="container">
+    <h2>About Us</h2>
+    <p>
+      We are learning web development using HTML, CSS and Bootstrap.
+      This is a simple responsive landing page project.
+    </p>
+    <p>
+      We create modern websites with navigation and sections.
+    </p>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="container">
+    <h2>Contact Us</h2>
+
+    <p>Email: example@gmail.com</p>
+    <p>Phone: +91 98765 43210</p>
+    <p>Address: Ahmedabad, Gujarat</p>
+
+    <p>We are available Monday to Saturday.</p>
+  </div>
+</section>
+
+</body>
+</html>

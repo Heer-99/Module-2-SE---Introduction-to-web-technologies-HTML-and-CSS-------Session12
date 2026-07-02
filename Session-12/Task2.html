@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Spotify Playlist Landing Page</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<style>
+
+body{
+    background:#121212;
+    font-family:Arial,sans-serif;
+}
+
+/* Cover Page */
+
+.hero{
+    background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),
+    /* url("https://picsum.photos/1600/700?music"); */
+    url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSglmzQFYdNV_xIzOL37_x7KrLrSRnhVjyJBCSmYRYdD1CIpmI8QM_U4Ued&s=10");
+    background-size:cover;
+    background-position:center;
+    height:70vh;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+
+    color:white;
+}
+
+.hero h1{
+    font-size:55px;
+    font-weight:bold;
+}
+
+.hero p{
+    font-size:20px;
+}
+
+.playlist-card{
+
+    background:#1e1e1e;
+
+    color:white;
+
+    border-radius:15px;
+
+    overflow:hidden;
+
+    transition:.3s;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.4);
+
+   
+
+}
+
+.playlist-card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.playlist-card img{
+
+    /* width:100%;
+
+    height:250px;
+
+    object-fit:cover; */
+
+    width:100%;
+    height:250px;
+    object-fit:cover;
+    display:block;
+
+}
+
+.btn-success{
+
+    width:100%;
+    border-radius: 30px;
+    font-weight: 600;
+    padding: 10px 35px;
+
+}
+
+.section-title{
+
+    color:white;
+
+    font-weight:bold;
+
+}
+
+footer{
+
+    color:white;
+
+    text-align:center;
+
+    padding:25px;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<!-- Cover Page -->
+
+<section class="hero">
+
+<div>
+
+<h1>Spotify Music Hub</h1>
+
+<p>
+Discover Amazing Playlists Anytime, Anywhere
+</p>
+
+<a href="#playlist" class="btn btn-success btn-lg mt-3">
+Explore Playlists
+</a>
+
+</div>
+
+</section>
+
+<!-- Playlist Section -->
+
+<div class="container py-5" id="playlist">
+
+<h2 class="text-center section-title mb-5">
+
+Featured Playlists
+
+</h2>
+
+<div class="row g-4">
+
+<!-- Playlist 1 -->
+<div class="col-lg-4 col-md-6">
+
+    <div class="playlist-card">
+
+        <img src="C:\Users\admin\Downloads\ChatGPT Image Jun 30, 2026, 09_58_56 PM.png" alt="Bollywood Hits">
+
+        <div class="p-3 text-center">
+
+            <h4>🎵 Bollywood Hits</h4>
+
+            <p>Enjoy the latest and all-time favorite Bollywood songs.</p>
+
+            <button class="btn btn-success">
+                Listen Now
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- Playlist 2 -->
+<div class="col-lg-4 col-md-6">
+
+    <div class="playlist-card">
+
+        <img src="C:\Users\admin\Downloads\ChatGPT Image Jun 30, 2026, 10_29_48 PM.png" alt="Gujarati Beats">
+
+        <div class="p-3 text-center">
+
+            <h4>🎶 Gujarati Beats</h4>
+
+            <p>Experience the vibrant rhythm of Gujarati music.</p>
+
+            <button class="btn btn-success">
+                Listen Now
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- Playlist 3 -->
+
+<div class="col-lg-4 col-md-6">
+
+    <div class="playlist-card">
+
+        <img src="C:\Users\admin\Downloads\ChatGPT Image Jun 30, 2026, 10_15_37 PM.png" alt="Hindi Lo-Fi Beats">
+
+        <div class="p-3 text-center">
+
+            <h4>☕ Hindi Lo-Fi Beats</h4>
+
+            <p>Relax, study and unwind with soothing Hindi lo-fi tunes.</p>
+
+            <button class="btn btn-success">
+                Listen Now
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+</div>
+
+<footer>
+
+© 2026 Spotify Playlist Landing Page | Designed by Heer Panchal
+
+</footer>
+
+</body>
+</html>
